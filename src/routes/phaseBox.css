@@ -1,0 +1,7 @@
+.phase1Box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  margin: 50px auto;
+}
