@@ -17,7 +17,7 @@ function Falcon() {
     }
   `;
   const {loading, error, data} = useQuery(GET_MOVIES);
-  const IMG_URL = "http://image.tmdb.org/t/p/w500";
+  const IMG_URL = "http://image.tmdb.org/t/p/w500/";
   console.log(data);
 
   return (
