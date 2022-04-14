@@ -1,5 +1,5 @@
 import React from "react";
-import {HashRouter as Router, Route, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import Phase4 from "../routes/Phase4";
 import Phase3 from "../routes/Phase3";
 import Phase2 from "../routes/Phase2";
@@ -10,7 +10,7 @@ import MovieDetail from "./MovieDetail";
 import ShowDetail from "./ShowDetail";
 function App() {
   return (
-    <Router basename="/">
+    <Router>
       <Routes>
         <Route exact path="/" element={<Choice />} />
         <Route path="/phase1" element={<Phase1 />} />
