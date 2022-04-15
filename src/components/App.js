@@ -10,7 +10,7 @@ import MovieDetail from "./MovieDetail";
 import ShowDetail from "./ShowDetail";
 function App() {
   return (
-    <Router basename="/movie-ewb">
+    <Router basename="/movie-web">
       <Routes>
         <Route exact path="/" element={<Choice />} />
         <Route path="/phase1" element={<Phase1 />} />
