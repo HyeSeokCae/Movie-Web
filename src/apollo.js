@@ -1,6 +1,9 @@
-import {ApolloClient, InMemoryCache} from "@apollo/client";
+import {ApolloClient, InMemoryCache, HttpLink, from} from "@apollo/client";
+const link = from([
+  new HttpLink({uri: "http://ql-movie-api.herokuapp.com/graphql"}),
+]);
 const client = new ApolloClient({
-  uri: "https://ql-movie-api.herokuapp.com/graphql",
+  link: link,
   cache: new InMemoryCache(),
 });
 
