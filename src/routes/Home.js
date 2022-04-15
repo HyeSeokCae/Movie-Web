@@ -1,6 +1,4 @@
 import React, {useState} from "react";
-import {gql} from "apollo-boost";
-import {useQuery} from "@apollo/client";
 import Loading from "../components/Loading";
 import Choice from "../components/Choice";
 

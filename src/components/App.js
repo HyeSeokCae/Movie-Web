@@ -10,16 +10,16 @@ import MovieDetail from "./MovieDetail";
 import ShowDetail from "./ShowDetail";
 function App() {
   return (
-    <Router basename="/movie-web">
+    <Router basename="/home">
       <Routes>
         <Route exact path="/" element={<Choice />} />
-        <Route path="movie-web/phase1" element={<Phase1 />} />
-        <Route path="movie-web/phase2" element={<Phase2 />} />
-        <Route path="movie-web/phase3" element={<Phase3 />} />
-        <Route path="movie-web/phase4" element={<Phase4 />} />
-        <Route path="movie-web/home" element={<Home />} />
-        <Route path="movie-web/movie/detail/:id" element={<MovieDetail />} />
-        <Route path="movie-web/show/detail/:id" element={<ShowDetail />} />
+        <Route path="/phase1" element={<Phase1 />} />
+        <Route path="/phase2" element={<Phase2 />} />
+        <Route path="/phase3" element={<Phase3 />} />
+        <Route path="/phase4" element={<Phase4 />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/movie/detail/:id" element={<MovieDetail />} />
+        <Route path="/show/detail/:id" element={<ShowDetail />} />
       </Routes>
     </Router>
   );
