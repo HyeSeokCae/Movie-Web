@@ -4,6 +4,10 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
+  /* background: url(../../public/dark-space2.jpg);
+  background-size: 100%, cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
 }
 /* =======Main Page Title Text======= */
 
